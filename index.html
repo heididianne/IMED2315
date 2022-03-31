@@ -3,36 +3,49 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Web Design 2</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:wght@100;400;600&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav>
             <ul>
-              <a href="#">Home</a>
-              <a href="#">About Us</a>
-              <a href="#">Menu</a>
-              <a href="#">Delight</a>
+              <li style="float: left;"><a class="brand" href="#">The Place</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Reservations</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Welcome</a></li>
             </ul>
         </nav>
     </header>
+    <div class="row">
+    <div class="column">
     <section>
         <article>
             <header>
                 <h4>Discover</h4>
                 <h1>Our Story</h1>
+                <figure>
+                    <img src="assets/Star.png" alt="Star">
+                </figure>
             </header>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mollis nunc sed id semper risus in. Amet risus nullam eget felis eget. Fusce ut placerat orci nulla pellentesque dignissim enim sit.</p>
-            <figure>
-              <img src="assets/our-story.jpg" alt="Our restaurant">
-              <figcaption>Our restaurant</figcaption>
-            </figure>
+            <p>Lorem ipsum is placeholder text commonly used in graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
         </article>
     </section>
     <aside>
-      <a href="#">About Us</a>
+      <a class="about" href="#">About Us</a>
     </aside>
-    <footer>
-        <p>Copyright 2022 | Heidi Lemus</p>
-    </footer>
+</div>
+<div class="column">
+    <section>
+        <figure>
+            <img src="assets/our-story.jpg" alt="Our restaurant">
+          </figure>
+    </section>
+</div>
+    </div>
 </body>
 </html>
