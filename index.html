@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Web Design 2</title>
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:wght@100;400;600&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <style>
     * {
@@ -19,11 +16,11 @@
         <nav>
             <ul>
               <li style="float: left;"><a class="brand" href="#">The Place</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Reservations</a></li>
-              <li><a href="#">Menu</a></li>
-              <li><a href="#">Welcome</a></li>
+              <li style="float: right;"><a href="#" class="welcome">Contact</a></li>
+              <li style="float: right;"><a href="#" class="menu">News</a></li>
+              <li style="float: right;"><a href="#" class="res">Reservations</a></li>
+              <li style="float: right;"><a href="#" class="news">Menu</a></li>
+              <li style="float: right;"><a href="#" class="contact">Welcome</a></li>
             </ul>
         </nav>
     </header>
@@ -32,10 +29,10 @@
     <section>
         <article>
             <header>
-                <h4>Discover</h4>
+                <h4 class="heading">Discover</h4>
                 <h1>Our Story</h1>
                 <figure>
-                    <img src="assets/Star.png" alt="Star">
+                    <img src="assets/Star.png" alt="Star" class="star">
                 </figure>
             </header>
             <p>Lorem ipsum is placeholder text commonly used in graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
@@ -48,7 +45,7 @@
 <div class="column">
     <section>
         <figure>
-            <img src="assets/our-story.jpg" alt="Our restaurant">
+            <img src="assets/our-story.jpg" alt="Our restaurant" class="restaurant">
           </figure>
     </section>
 </div>
